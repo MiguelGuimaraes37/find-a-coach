@@ -6,4 +6,4 @@ README FILE
 4. -> Wire Pages, done
 5. -> Integrate and wire vuex with pages, done
 6. -> Add coach-item component and use it, done
-7. -> Add base-card, base-button, base-badge components, done
+7. -> Add base-card, base-button, base-badge components and use it, done
