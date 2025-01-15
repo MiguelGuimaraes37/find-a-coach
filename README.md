@@ -8,3 +8,4 @@ README FILE
 6. -> Add coach-item component and use it, done
 7. -> Add base-card, base-button, base-badge components and use it, done
 8. -> Add content to CoachDetail, done
+9. -> Add coach-filter and use it, done
