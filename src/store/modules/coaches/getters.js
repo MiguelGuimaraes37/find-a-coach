@@ -9,4 +9,9 @@ export default {
     console.log(state);
     console.log(arg);
   },
+  isCoach(_, getters, _2, rootGetters) {
+    const coaches = getters.coaches;
+    const userId = rootGetters.userId;
+    return coaches.some((c) => c.id === userId);
+  },
 };

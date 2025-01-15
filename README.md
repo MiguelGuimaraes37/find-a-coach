@@ -10,3 +10,4 @@ README FILE
 8. -> Add content to coach-detail, done
 9. -> Add coach-filter and use it, done
 10. -> Add content to coach-registration, add coach-form, done
+11. -> Add the feature of adding a Coach with invalid data, to then be upgraded, done
