@@ -9,6 +9,7 @@ README FILE
 7. -> Add base-card, base-button, base-badge components and use it, done
 8. -> Add content to coach-detail, done
 9. -> Add coach-filter and use it, done
-10. -> Add content to coach-registration, add coach-form, done
+10. -> Add content to CoachRegistration, add coach-form, done
 11. -> Add the feature of adding a Coach with invalid data, to then be upgraded, done
 12. -> Add coach form validation, done
+13. -> Add form with validation to ContactCoach, done
