@@ -1,4 +1,5 @@
 <template>
+  <router-view></router-view>
   <section>
     <base-card>
       <h2>{{ fullName }}</h2>
@@ -41,7 +42,7 @@ export default {
       return this.selectedCoach.hourlyRate;
     },
     contactLink() {
-      return this.$route.path + '/' + this.id + '/contact';
+      return this.$route.path + '/contact';
     },
   },
   created() {
