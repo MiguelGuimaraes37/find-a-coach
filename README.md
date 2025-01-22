@@ -10,6 +10,7 @@ README FILE
 8. -> Add content to coach-detail, done
 9. -> Add coach-filter and use it, done
 10. -> Add content to CoachRegistration, add coach-form, done
-11. -> Add the feature of adding a Coach with invalid data, to then be upgraded, done
+11. -> Add the feature of adding a Coach in vuex store, with invalid data, to then be upgraded, done
 12. -> Add coach form validation, done
 13. -> Add form with validation to ContactCoach, done
+14. -> Add the feature of adding a Request in vuex store, done

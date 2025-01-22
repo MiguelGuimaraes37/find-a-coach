@@ -1,5 +1,4 @@
 <template>
-  <router-view></router-view>
   <section>
     <base-card>
       <h2>{{ fullName }}</h2>
@@ -12,6 +11,7 @@
         <h2>Interested? Reach out now!</h2>
         <base-button link :to="contactLink">Contact</base-button>
       </header>
+      <router-view></router-view>
     </base-card>
   </section>
   <section>
