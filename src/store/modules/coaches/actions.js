@@ -1,7 +1,6 @@
 export default {
   async registerCoach(context, data) {
     const userId = context.rootGetters.userId;
-    console.log(userId);
     const coachData = {
       firstName: data.first,
       lastName: data.last,
@@ -19,7 +18,7 @@ export default {
     );
 
     if (!response.ok) {
-      const error = new Error(response.message || 'Failed to fetch!');
+      const error = new Error(response.message || 'Failed to create coach!');
       throw error;
     }
 

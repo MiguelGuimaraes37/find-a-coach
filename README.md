@@ -20,3 +20,4 @@ README FILE
 18. -> Coaches are loaded by firebase through a http request, done
 19. -> Adding a loading spinner when fetching coaches, done
 20. -> Handle error while fetching coaches, done
+21. -> Coaches and Requests are loaded and stored on FireBase, done;
