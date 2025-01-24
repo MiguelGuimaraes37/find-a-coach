@@ -27,4 +27,31 @@ export default {
       id: userId,
     });
   },
+
+  async loadCoaches(context) {
+    const response = await fetch(
+      `https://main-project-vue-2e40e-default-rtdb.firebaseio.com/coaches.json`
+    );
+
+    const responseData = await response.json();
+
+    if (!response.ok) {
+      // error ...
+    }
+
+    const coaches = [];
+    for (const key in responseData) {
+      const coach = {
+        id: key,
+        firstName: responseData[key].firstName,
+        lastName: responseData[key].lastName,
+        description: responseData[key].description,
+        hourlyRate: responseData[key].hourlyRate,
+        areas: responseData[key].areas,
+      };
+      coaches.push(coach);
+    }
+
+    context.commit('setCoaches', coaches);
+  },
 };
