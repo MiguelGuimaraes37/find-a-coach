@@ -19,3 +19,4 @@ README FILE
 17. -> Integrate http request in order to store a new/update coach with FireBase , done
 18. -> Coaches are loaded by firebase through a http request, done
 19. -> Adding a loading spinner when fetching coaches, done
+20. -> Handle error while fetching coaches, done
