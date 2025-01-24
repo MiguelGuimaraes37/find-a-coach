@@ -1,15 +1,8 @@
 export default {
-  /*
-  getCoachById(context, id) {
-    const coaches = context.state.coaches;
-
-    const coachById = coaches.find((c) => c.id === id);
-    return coachById;
-  },
-  */
-  registerCoach(context, data) {
+  async registerCoach(context, data) {
+    const userId = context.rootGetters.userId;
+    console.log(userId);
     const coachData = {
-      id: context.rootGetters.userId,
       firstName: data.first,
       lastName: data.last,
       description: data.desc,
@@ -17,6 +10,21 @@ export default {
       areas: data.areas,
     };
 
-    context.commit('registerCoach', coachData);
+    const response = await fetch(
+      `https://main-project-vue-2e40e-default-rtdb.firebaseio.com/coaches/${userId}.json`,
+      {
+        method: 'PUT',
+        body: JSON.stringify(coachData),
+      }
+    );
+
+    if (!response.ok) {
+      // error ...
+    }
+
+    context.commit('registerCoach', {
+      ...coachData,
+      id: userId,
+    });
   },
 };
