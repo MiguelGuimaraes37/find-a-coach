@@ -21,3 +21,4 @@ README FILE
 19. -> Adding a loading spinner when fetching coaches, done
 20. -> Handle error while fetching coaches, done
 21. -> Coaches and Requests are loaded and stored on FireBase, done;
+22. -> Caching coaches http response data, done;

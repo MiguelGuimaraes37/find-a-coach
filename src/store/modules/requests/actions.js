@@ -17,7 +17,6 @@ export default {
     const responseData = await response.json();
 
     if (!response.ok) {
-      console.log('IM HERE');
       const error = new Error(response.message || 'Failed to send request!');
       throw error;
     }
@@ -52,7 +51,6 @@ export default {
         message: responseData[key].message,
       };
       requests.push(request);
-      console.log(request);
     }
 
     context.commit('setRequests', requests);

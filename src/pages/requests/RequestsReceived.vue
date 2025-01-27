@@ -56,7 +56,6 @@ export default {
       try {
         await this.$store.dispatch('requests/loadRequests');
       } catch (error) {
-        console.log('12345');
         this.error = error.message || 'Something went wrong!';
       }
       this.isLoading = false;
