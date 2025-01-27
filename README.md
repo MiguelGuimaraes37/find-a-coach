@@ -28,3 +28,4 @@ README FILE
 26. -> Add vuex auth, done
 27. -> Add sign up functionality into auth page, done
 28. -> Add handling errors in signup, done
+29. -> Add sign in functionality into auth page, done
