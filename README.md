@@ -34,3 +34,4 @@ README FILE
 32. -> Add logout functionality, done
 33. -> Add navigation guards and correct links redirects, done
 34. -> Add the functionality of persisting the login in Local Storage, done
+35. -> Add auto logout after a token time expires, done
