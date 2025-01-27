@@ -24,3 +24,4 @@ README FILE
 22. -> Caching coaches http response data, done
 23. -> Add route transitions, done
 24. -> Add content to NotFound page, done
+25. -> Add a authentication page, done
