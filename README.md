@@ -31,3 +31,4 @@ README FILE
 29. -> Add sign in functionality into auth page, done
 30. -> Add token auth, to then create and read allowed data, done
 31. -> Update the UI base on auth state, done
+32. -> Add logout functionality, done
