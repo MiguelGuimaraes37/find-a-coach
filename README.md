@@ -1,38 +1,76 @@
-README FILE
+<h1>Find a Coach App</h1>
 
-1. -> Add routes and use it, done
-2. -> Add pages to route and use it, done
-3. -> Add global style to App, Add Content, Style and Routing to the-header and use it, done
-4. -> Wire Pages, done
-5. -> Integrate and wire vuex with pages, done
-6. -> Add coach-item component and use it, done
-7. -> Add base-card, base-button, base-badge components and use it, done
-8. -> Add content to coach-detail, done
-9. -> Add coach-filter and use it, done
-10. -> Add content to CoachRegistration, add coach-form, done
-11. -> Add the feature of adding a Coach in vuex store, with invalid data, to then be upgraded, done
-12. -> Add coach form validation, done
-13. -> Add form with validation to ContactCoach, done
-14. -> Add the feature of adding a Request in vuex store, done
-15. -> Add requests overview to RequestsReceived, but it will be upgraded(a user can see all the requests even if the owner of the request is not him), done
-16. -> Update requests overview in order to only see the requests of a specific coach id, done
-17. -> Integrate http request in order to store a new/update coach with FireBase , done
-18. -> Coaches are loaded by firebase through a http request, done
-19. -> Adding a loading spinner when fetching coaches, done
-20. -> Handle error while fetching coaches, done
-21. -> Coaches and Requests are loaded and stored on FireBase, done
-22. -> Caching coaches http response data, done
-23. -> Add route transitions, done
-24. -> Add content to NotFound page, done
-25. -> Add a authentication page, done
-26. -> Add vuex auth, done
-27. -> Add sign up functionality into auth page, done
-28. -> Add handling errors in signup, done
-29. -> Add sign in functionality into auth page, done
-30. -> Add token auth, to then create and read allowed data, done
-31. -> Update the UI base on auth state, done
-32. -> Add logout functionality, done
-33. -> Add navigation guards and correct links redirects, done
-34. -> Add the functionality of persisting the login in Local Storage, done
-35. -> Add auto logout after a token time expires, done
-36. -> Set Async Components, done
+<p>
+  This project was realized during 
+  <a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/" target="_blank">
+    Maximilian Schwarzmüller VueJS course
+  </a> 
+  with the goal of working with all the main features of Options API.
+</p>
+
+<p>
+  CSS was provided by the course. The project consists on a application where you can book
+  a space of time of a coach and you can be a coach too and check out the requests of your
+  clients
+</p>
+
+<h2>Features Implemented</h2>
+
+<ul>
+  <li>Components</li>
+  <li>VueX</li>
+  <li>User Auth</li>
+  <li>Firebase Database</li>
+  <li>Mutations</li>
+  <li>Actions</li>
+  <li>Conditional rendering</li>
+  <li>User Login, Local Storage with userId and tokenId</li>
+  <li>Firebase Deploy</li>
+  <li>Router</li>
+</ul>
+
+<h2>Deployed Site</h2>
+<p><a href="https://main-project-vue-2e40e.web.app" target="_blank">Find a Coach site</a></p>
+  
+  <h2>Prerequisites to run on your computer</h2>
+  <p>Ensure you have the following installed on your system:</p>
+  <ul>
+    <li><a href="https://nodejs.org/" target="_blank">Node.js</a> (version 14 or higher recommended)</li>
+    <li><a href="https://www.npmjs.com/" target="_blank">npm</a> (comes with Node.js)</li>
+  </ul>
+  
+  <h2>Installation Steps</h2>
+  <ol>
+    <li>
+      <strong>Clone the Repository</strong>  
+      <pre><code>git clone https://github.com/MiguelGuimaraes37/find-a-coach.git</code></pre>
+    </li>
+    <li>
+      <strong>Navigate to the Project Directory</strong>  
+      <pre><code>cd find-a-coach</code></pre>
+    </li>
+    <li>
+      <strong>Install Dependencies</strong>  
+      <pre><code>npm install</code></pre>
+    </li>
+  </ol>
+  
+  <h2>Running the Project</h2>
+  <ol>
+    <li>
+      <strong>Start the Development Server</strong>  
+      <p>To start the development server, use:</p>
+      <pre><code>npm run serve</code></pre>
+      <p>This will launch the application in development mode and automatically open it in your default browser.</p>
+    </li>
+  </ol>
+  
+  <p>
+    Feel free to open an pull request on the repository if you encounter any problems during setup or running the app!
+  </p>
+
+  <h2>Site  OverView</h2>
+
+  <img src=""></img>
+
+  
