@@ -30,6 +30,7 @@
 </ul>
 
 <h2>Deployed Site</h2>
+<p>Still Fixing</p>
 <p><a href="https://main-project-vue-2e40e.web.app" target="_blank">Find a Coach site</a></p>
   
   <h2>Prerequisites to run on your computer</h2>
