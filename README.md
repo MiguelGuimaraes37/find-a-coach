@@ -67,8 +67,9 @@
   
   <p>
     Feel free to open an pull request on the repository if you encounter any problems during setup or running the app!
+    <br />
     OBS: Feel free to send me email so I can provide you a account in order to test the site.
-    <img src="https://github.com/ErickSimoes/email-icon/blob/master/gh.png">
+    miguel.guimaraes053722@gmail.com
   </p>
 
   <h2>Site  OverView</h2>
